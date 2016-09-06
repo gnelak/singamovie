@@ -34,7 +34,7 @@ class ImageUploader < CarrierWave::Uploader::Base
 
   version :display do
     process :eager => true
-    process :resize_to_fill => [400, 600, :north]
+    process :resize_to_fill => [400, 600]
   end
 
   # Create different versions of your uploaded files:
