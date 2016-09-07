@@ -21,13 +21,28 @@ body {
 	background: #AA4847;
 }
 
+.header {
+	margin: 0 0 15px 0}
+
 .review_title {
-	margin: 0 0 20px 0;
+	margin: 0 0 15px 0;
 }
+
 .reviews {
 	padding: 15px 0;
 	border-bottom: 1px solid #EAEAEA;
 	.star-rating {
 		padding-bottom: 8px;
 	}
+
+.background-image {
+
+    height: 400px;
+    background-image: url('community.jpg');
+    width: 100%;
+    position: absolute;
+    top:0;
+    z-index: -100;
+}
+
 }
